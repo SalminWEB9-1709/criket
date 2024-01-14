@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transform </title>
+    <style>
+        .container1,.inner1{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container1{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner1 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: scale(0.75);
+        }
+
+
+        .container2, .inner2{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container2{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner2 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: scale(1.75);
+        }
+
+
+        .container3, .inner3{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container3{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner3{
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: scale(0.25,0.25);
+        }
+        
+        .container4, .inner4{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container4{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner4 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: scale(0.25,0.5);
+        }
+
+
+
+        .container5, .inner5{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container5{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner5 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: rotate(45deg);
+        }
+        
+        .container6, .inner6{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container6{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner6{
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: scale(180deg);
+        }
+        
+        
+        .container7, .inner7{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container7{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner7 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: scale(0.5) rotate(45deg) translateX(30px);
+        }
+        
+        
+        .container8, .inner8{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container8{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner8 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: translate(100px);
+        }
+
+        .container9, .inner9{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container9{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner9 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: translateX(50px);
+        }
+
+        .container10, .inner10{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container10{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner10 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform:scale(0.5) translate(100px) translateY(100px) rotate(45deg);
+        }
+
+        .container11, .inner11{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container11{
+            border: 2px solid rgb(6, 71, 124);
+            background-color: rebeccapurple;
+        }
+        .inner11:hover{
+            /*border: 2px solid greenyellow;
+            background-color: brown;
+            transform: translateX(50px);*/
+            transform: rotate(45deg);
+            
+
+            
+        }
+
+        .container12, .inner12{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container12{
+            border: 2px solid steelblue;
+            background-color: rebeccapurple;
+        }
+        .inner12 {
+            border: 2px solid greenyellow;
+            background-color: brown;
+            transform: translateY(150px) scale(0.5) rotate(45deg);
+        }
+
+    </style>
+</head>
+<body>
+    <h2> Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container1">
+        <div class="inner1"> inner 1</div>
+    </div>
+    <div class="container1">container 2
+        <div class="inner1"> inner 2</div>
+    </div>
+    <div class="container1">container 3
+        <div class="inner1"> inner 3</div>
+    </div>
+    <h2> 2Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container2">
+        <div class="inner2"> inner 1</div>
+    </div>
+    <div class="container2">container 2
+        <div class="inner2"> inner 2</div>
+    </div>
+    <div class="container2">container 3
+        <div class="inner2"> inner 3</div>
+    </div>
+    <h2> 3Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container3">
+        <div class="inner3"> inner 1</div>
+    </div>
+    <div class="container3">container 2
+        <div class="inner3"> inner 2</div>
+    </div>
+    <div class="container3">container 3
+        <div class="inner3"> inner 3</div>
+    </div>
+    <h2> 4Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container4">
+        <div class="inner4"> inner 1</div>
+    </div>
+    <div class="container4">container 2
+        <div class="inner4"> inner 2</div>
+    </div>
+    <div class="container4">container 3
+        <div class="inner4"> inner 3</div>
+    </div>
+    <h2> 5Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container5">
+        <div class="inner5"> inner 1</div>
+    </div>
+    <div class="container5">container 2
+        <div class="inner5"> inner 2</div>
+    </div>
+    <div class="container5">container 3
+        <div class="inner5"> inner 3</div>
+    </div>
+    <h2> 6Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container6">
+        <div class="inner6"> inner 1</div>
+    </div>
+    <div class="container6">container 2
+        <div class="inner6"> inner 2</div>
+    </div>
+    <div class="container6">container 3
+        <div class="inner6"> inner 3</div>
+    </div>
+    <h2> 7Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container7">
+        <div class="inner7"> inner 1</div>
+    </div>
+    <div class="container7">container 2
+        <div class="inner7"> inner 2</div>
+    </div>
+    <div class="container7">container 3
+        <div class="inner7"> inner 3</div>
+    </div>
+    <h2> 8Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container8">
+        <div class="inner8"> inner 1</div>
+    </div>
+    <div class="container8">container 2
+        <div class="inner8"> inner 2</div>
+    </div>
+    <div class="container8">container 3
+        <div class="inner8"> inner 3</div>
+    </div>
+
+    <h2> 9Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container9">
+        <div class="inner9"> inner 1</div>
+    </div>
+    <div class="container9">container 2
+        <div class="inner9"> inner 2</div>
+    </div>
+    <div class="container9">container 3
+        <div class="inner9"> inner 3</div>
+    </div>
+
+    <h2> 10Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container10">
+        <div class="inner10"> inner 1</div>
+    </div>
+    <div class="container10">container 2
+        <div class="inner10"> inner 2</div>
+    </div>
+    <div class="container10">container 3
+        <div class="inner10"> inner 3</div>
+    </div>
+
+    <h2> 11Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container11">
+        <div class="inner11"> inner 1</div>
+    </div>
+    <div class="container11">container 2
+        <div class="inner11"> inner 2</div>
+    </div>
+    <div class="container11">container 3
+        <div class="inner11"> inner 3</div>
+    </div>
+
+    <h2> 12Explore Transform and Translate </h2>
+    <!--.container*3{container $}>.inner{ inner $}-->
+    <div class="container12">
+        <div class="inner12"> inner 1</div>
+    </div>
+    <div class="container12">container 2
+        <div class="inner12"> inner 2</div>
+    </div>
+    <div class="container12">container 3
+        <div class="inner12"> inner 3</div>
+    </div>
+</body>
+</html>
